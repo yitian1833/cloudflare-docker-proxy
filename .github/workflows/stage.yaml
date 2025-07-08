@@ -17,7 +17,7 @@ jobs:
       - name: Publish
         uses: cloudflare/wrangler-action@v3
         with:
-          apiToken: "khZ6neo3UfxUAoSwa6A5IRo_T6jyH3HwxPnkeBLv"
+          apiToken: "KORoL5ygZx4Uq2VTU1rGMF-Q1QKzHWZoWmpf16aG"
           accountId: "b6e6b5eb8bc6f37674d7b57752213861"
           command: deploy --env staging --minify src/index.js
           environment: staging
